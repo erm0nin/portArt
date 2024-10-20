@@ -74,30 +74,7 @@ function Main() {
 
       <div className="portfolio">
         <h2>Портфолио</h2>
-        <Swiper
-        effect={'coverflow'}
-        grabCursor={true}
-        centeredSlides={true}
-        loop={true}
-        coverflowEffect={{
-          rotate:0,
-          stretch:0,
-          depth:100,
-          modifier:2.5,
-        }}
-        className="swiper_container"
-      modules={[Navigation, Pagination, Scrollbar, A11y,EffectCoverflow]}
-      spaceBetween={50}
-      slidesPerView={'auto'}
-      
-      pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
-    >
-      <SwiperSlide className="swiperSlide"><a href="https://t.me/romanov_t"><img src={slide_image} alt="" /></a></SwiperSlide>
-       <SwiperSlide><a href="https://t.me/romanov_t"><img className="sliderImage" src={slide_image} alt="" /></a></SwiperSlide>
-       <SwiperSlide><a href="https://t.me/romanov_t"><img src={slide_image} alt="" /></a></SwiperSlide>
-
-    </Swiper>
+    
       </div>
     </div>
     
